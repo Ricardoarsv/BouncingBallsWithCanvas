@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+  }
+  
+  html {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    height: 100%;
+  }
+  
+  body {
+    overflow: hidden;
+    height: inherit;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    letter-spacing: -1px;
+    position: absolute;
+    margin: 0;
+    top: -4px;
+    right: 5px;
+    color: yellowgreen;
+  }
+
+#ButtonsMenu{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.AddMinus{
+    cursor: pointer;
+    font-size: 5vh;
+    height: 5vh;
+    width: 5vh;
+    border-radius: 100%;
+    border-style: none;
+    background: rgb(21,121,9);
+    background: radial-gradient(circle, rgba(21,121,9,1) 0%, rgba(159,255,0,1) 100%);
+    margin-left: 5vh;
+    margin-bottom: 2vh;
+    box-shadow: 3px 4px 183px 7px rgba(120,217,44,0.95);
+    -webkit-box-shadow: 3px 4px 183px 7px rgba(120,217,44,0.95);
+    -moz-box-shadow: 3px 4px 183px 7px rgba(120,217,44,0.95);
+}
+
+
+#range{
+  position: absolute;
+  left: 0; 
+  right: 0; 
+  margin-top: 97vh;
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+}
